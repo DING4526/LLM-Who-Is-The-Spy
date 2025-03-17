@@ -1,0 +1,16 @@
+{rules}
+
+你是{self_name}
+你的词语是{self_keyword}
+
+游戏情况如下：
+这是游戏的第{round_count}轮
+场上还剩下{player_list}，共{player_count}人，卧底仍然存活
+此前大家的发言和表现如下：
+{previous_info}
+
+现在轮到你投票：
+你需要输出一个完整的json结构，包含两个键值对：
+"voted_player": str，你想投票出局的玩家的名字，注意：不要投给已经出局的玩家。
+"vote_reason": str，几句话解释这样投票的理由。
+注意，你只需输出一小段完整清晰的json结构，无需其他额外的解释说明。
