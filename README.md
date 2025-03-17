@@ -36,3 +36,16 @@ pip install openai
 ```
 python game.py
 ```
+
+## 致谢
+
+本项目参考了Github项目 https://github.com/LYiHub/liars-bar-llm
+
+以及对应的Bilibili介绍视频 https://www.bilibili.com/video/BV1aL92YoEEe/?share_source=copy_web&vd_source=c4b762b922675d749ad2ad999599cf2b
+
+
+
+
+
+
+
